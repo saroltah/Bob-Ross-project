@@ -194,7 +194,7 @@ cursor:pointer;}
   
 .w-o-w a{text-decoration: none;
   color:var(--link-color)}
-  
+
 .titanium{background-color: #ffffff; border:1px solid black}
 .black{background-color: #000000;}
 .alizarin{background-color: #4e1500;}
@@ -214,3 +214,31 @@ border-radius:10%}
 td{height:30px; border-radius: 10%; padding:3px 3px;}
 
 .table-container{overflow-x: auto;}
+
+footer{background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("../images/blue-river.jpeg") ;
+  background-size:cover;
+  background-repeat: no repeat;
+  height: 200px;
+  text-align: center;
+  color:white;
+  padding: 100px 0px;
+  } 
+  .last-section{grid-template-columns: 1fr 1.5fr 1fr;
+  height:110%;
+  width: 85%;
+text-align: justify;
+margin:0px auto;
+padding:20px;
+grid-gap:30px;
+line-height: 30px;
+border:3px solid var(--pink-color);
+border-radius:10px;
+margin-top:-30px
+} 
+.last-section .title{text-align: center;
+font-size: 25px;}
+.last-section a{text-decoration: none;
+color: var(--pink-color);
+font-family: var(--title-font);
+letter-spacing: 10px;}
