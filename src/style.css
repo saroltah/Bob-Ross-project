@@ -171,7 +171,8 @@ margin:60px auto;}
 }
 .gallery .painting{width:100%;border-radius: 10px;}
 .gallery .painting:hover{scale: 2.5;
-cursor:pointer;}
+cursor:pointer;
+border:1px solid black}
 
 .w-o-w {text-align: center;
   margin:60px auto;
@@ -219,12 +220,11 @@ footer{background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))
   url("../images/blue-river.jpeg") ;
   background-size:cover;
   background-repeat: no repeat;
-  height: 200px;
   text-align: center;
   color:white;
   padding: 100px 0px;
   } 
-  .last-section{grid-template-columns: 1fr 1.5fr 1fr;
+  .last-section{grid-template-columns: 1.5fr 1fr 1fr;
   height:110%;
   width: 85%;
 text-align: justify;
@@ -242,3 +242,73 @@ font-size: 25px;}
 color: var(--pink-color);
 font-family: var(--title-font);
 letter-spacing: 10px;}
+
+.last-section .gif{width:100%;height:0}
+
+@media(max-width:1053px){.last-section .column{display:flex;
+  justify-content: center;
+align-items:center}
+.last-section .about-me p{
+  margin-top:45px
+}}
+@media(max-width:900px){
+  .section-1{width:100%}
+  .fun-facts{width:100%}
+  header{height:550px}
+  header h1{font-size: 90px;}
+  .j-o-p {
+  
+    max-width:100%;}
+}
+@media(max-width: 800px){
+  .j-o-p {
+    max-width:100%;}
+}
+@media(max-width: 700px){
+  .last-video{display:none}
+  .j-o-p .second-row{grid-template-columns: 1fr 1fr;
+  }
+  .section-1 .learn-more, .fun-facts .more-facts,   .w-o-w .link{
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+  .last-section{grid-template-columns: 1fr;}
+  .column{width:50%;
+  text-align: center;}
+}
+@media(max-width: 600px){
+.biography,  .fun-facts .section-2 {grid-template-columns: 1fr;}
+.fun-facts .text{display:none}
+header{height:400px}
+header h1{font-size: 60px;}
+header h2{ font-size:24px;
+padding:20px;
+margin-bottom:20px}
+header .portre{margin-bottom:-50px}
+.biography img{width:60%; margin-bottom:-30px}
+.col-1{text-align:center}
+.biography .title, .j-o-p .title, .fun-facts .title, .gallery .title,  .w-o-w .title{font-size:35px;
+margin:30px auto}
+ biography p, .j-o-p p, .fun-facts .text, .w-o-w p{font-size: 18px;}
+.w-o-w .title{max-width:400px}
+.j-o-p .title {max-width:300px}
+.fun-facts .title{max-width:220px}
+.gallery .paintings{
+  grid-template-columns: repeat(4, 1fr)}
+  .gallery .painting:hover{scale: 2.7;}
+
+@media(max-width:500px){
+  .j-o-p .first-row, .j-o-p .second-row{grid-template-columns: 1fr;
+}
+.second-last-video{display:none}
+.gallery .paintings{
+  grid-template-columns: repeat(2, 1fr)}
+  .twenty, .nineteen, .delete, header a{display:none}
+  header{width:100%;
+  height:auto;}
+  header background-image{display:block;
+    width:100%}
+    .j-o-p, .j-o-p p, .section-1 {max-width: 100%;}
+    body{max-width:100%}
+    .section-1{border:none}
+}
