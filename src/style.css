@@ -289,7 +289,7 @@ header .portre{margin-bottom:-50px}
 .col-1{text-align:center}
 .biography .title, .j-o-p .title, .fun-facts .title, .gallery .title,  .w-o-w .title{font-size:35px;
 margin:30px auto}
- biography p, .j-o-p p, .fun-facts .text, .w-o-w p{font-size: 18px;}
+ .biography p, .j-o-p p, .fun-facts .text, .w-o-w p{font-size: 18px;}
 .w-o-w .title{max-width:400px}
 .j-o-p .title {max-width:300px}
 .fun-facts .title{max-width:220px}
@@ -304,11 +304,10 @@ margin:30px auto}
 .gallery .paintings{
   grid-template-columns: repeat(2, 1fr)}
   .twenty, .nineteen, .delete, header a{display:none}
-  header{width:100%;
-  height:auto;}
+  header{width:100%}
   header background-image{display:block;
     width:100%}
-    .j-o-p, .j-o-p p, .section-1 {max-width: 100%;}
-    body{max-width:100%}
     .section-1{border:none}
+    .w-o-w .title{width:300px}
+    .gallery .painting:hover{scale: 2;}
 }
