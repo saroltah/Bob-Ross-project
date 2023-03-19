@@ -297,7 +297,9 @@ margin:30px auto}
 .gallery .paintings{
   grid-template-columns: repeat(4, 1fr)}
   .gallery .painting:hover{scale: 2.7;}
-body{margin:0px 0px}}
+body{margin:0px 0px;
+  padding:0px 0px;
+overflow: hidden;}}
 
 
 @media(max-width:500px){
