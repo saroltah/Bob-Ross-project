@@ -296,7 +296,9 @@ margin:30px auto}
 .fun-facts .title{max-width:220px}
 .gallery .paintings{
   grid-template-columns: repeat(4, 1fr)}
-  .gallery .painting:hover{scale: 2.7;}}
+  .gallery .painting:hover{scale: 2.7;}
+body{margin:0px 0px}}
+
 
 @media(max-width:500px){
   .j-o-p .first-row, .j-o-p .second-row{grid-template-columns: 1fr;
