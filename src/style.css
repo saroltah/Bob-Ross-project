@@ -278,6 +278,7 @@ align-items:center}
 }
 @media(max-width: 600px){
 .biography,  .fun-facts .section-2 {grid-template-columns: 1fr;}
+.biography{width:auto}
 .fun-facts .text{display:none}
 header{height:400px}
 header h1{font-size: 60px;}
@@ -285,7 +286,7 @@ header h2{ font-size:24px;
 padding:20px;
 margin-bottom:20px}
 header .portre{margin-bottom:-50px}
-.biography img{width:60%; margin-bottom:-30px}
+.biography img{width:60px; margin-bottom:-30px}
 .col-1{text-align:center}
 .biography .title, .j-o-p .title, .fun-facts .title, .gallery .title,  .w-o-w .title{font-size:35px;
 margin:30px auto}
@@ -295,7 +296,7 @@ margin:30px auto}
 .fun-facts .title{max-width:220px}
 .gallery .paintings{
   grid-template-columns: repeat(4, 1fr)}
-  .gallery .painting:hover{scale: 2.7;}
+  .gallery .painting:hover{scale: 2.7;}}
 
 @media(max-width:500px){
   .j-o-p .first-row, .j-o-p .second-row{grid-template-columns: 1fr;
@@ -309,5 +310,4 @@ margin:30px auto}
     width:100%}
     .section-1{border:none}
     .w-o-w .title{width:300px}
-    .gallery .painting:hover{scale: 2;}
-}
+    .gallery .painting:hover{scale: 2;}}
