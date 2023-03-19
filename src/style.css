@@ -298,8 +298,7 @@ margin:30px auto}
   grid-template-columns: repeat(4, 1fr)}
   .gallery .painting:hover{scale: 2.7;}
 body{margin:0px 0px;
-  padding:0px 0px;
-overflow: hidden;}}
+  padding:0px 0px;}}
 
 
 @media(max-width:500px){
